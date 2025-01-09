@@ -133,7 +133,8 @@
 
     <div class="footer-bottom">
         <p class="copyright">
-            &copy; <?php echo date("Y") ?> <a href="https://ultraapps.net/" class="copyright-link">Ultra Apps</a>. All
+            &copy; <?php echo date("Y") ?> <a href="https://mohamedkhaledhafez.github.io/portfolio/"
+                class="copyright-link">Mohamed K. Hafiz</a>. All
             Right Reserved
         </p>
     </div>
