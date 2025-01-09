@@ -1,5 +1,5 @@
 {
-    "name": "my-php-app",
+    "name": "mhafez/thefounder",
     "description": "A simple PHP app for Heroku",
     "require": {}
   }
