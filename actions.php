@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "admin/connect.php";
+include "manage/connect.php";
 
 /////////////////////// Insert Message ///////////////////////// 
 if (isset($_POST['send_msg'])) {
@@ -23,7 +23,7 @@ if (isset($_POST['send_msg'])) {
                                     VALUES('$fname', '$lname', '$email', '$phone', now(), '$message')");
         $stmt->execute();
 
-        $_SESSION['status'] = "شكراً لاستفساركم";
+        $_SESSION['status'] = "شكراً لتواصلكم معنا";
         $_SESSION['status_code'] = "success";
         header("Location: contact.php");
     }
