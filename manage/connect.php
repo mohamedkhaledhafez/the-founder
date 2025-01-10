@@ -22,10 +22,10 @@
 $url = parse_url(getenv("mysql://t78snp2igzndlql9:cihbqd6kgjxi5771@sulnwdk5uwjw1r2k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/zbud0v5s66drwoyg"));
 
 // تفكيك بيانات الاتصال
-$host = $url["host"];
-$dbname = substr($url["path"], 1); // إزالة علامة "/" من بداية اسم قاعدة البيانات
-$user = $url["user"];
-$pass = $url["pass"];
+$host = $url["sulnwdk5uwjw1r2k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306"];
+$dbname = substr($url["zbud0v5s66drwoyg"], 1); // إزالة علامة "/" من بداية اسم قاعدة البيانات
+$user = $url["mysql://t78snp2igzndlql9"];
+$pass = $url["cihbqd6kgjxi5771"];
 
 $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
 
