@@ -17,10 +17,9 @@
         echo 'Failed to connect to Database' . $e->getMessage() . '<br>';
     } 
 */
-// mysql://t78snp2igzndlql9:cihbqd6kgjxi5771@sulnwdk5uwjw1r2k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/zbud0v5s66drwoyg
 
 // استخراج معلومات الاتصال من متغير البيئة
-$url = parse_url(getenv("JAWSDB_URL"));
+$url = parse_url(getenv("mysql://t78snp2igzndlql9:cihbqd6kgjxi5771@sulnwdk5uwjw1r2k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/zbud0v5s66drwoyg"));
 
 // تفكيك بيانات الاتصال
 $host = $url["host"];
